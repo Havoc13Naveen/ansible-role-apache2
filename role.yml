@@ -1,0 +1,6 @@
+- name: roles for apache2
+  hosts: hi
+  become: yes
+  connection: ssh
+  roles:
+          - apache2
